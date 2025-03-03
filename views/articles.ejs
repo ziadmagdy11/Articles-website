@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en" dir="rtl">
 	<head>
 		<meta charset="UTF-8" />
@@ -45,6 +46,26 @@
 				<p class="articleTitle"><%= article.title %></p>
 				<p class="articleDescription"><%= article.description %></p>
 			</div>
+=======
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h1>All Articles Page:</h1>
+		<hr />
+
+		<div style="background: orange; color: black; padding: 20px">
+			<% for( let article of allArticles) { %>
+
+			<h1 style="background: blue"><%= article.title %></h1>
+
+			<h5><%=article.body%></h5>
+			<hr />
+			<br />
+>>>>>>> a3f49482306d67a63d0f01d19361de4a10c3b0ec
 
 			<% } %>
 		</div>
